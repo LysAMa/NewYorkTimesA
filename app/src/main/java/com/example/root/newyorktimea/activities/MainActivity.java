@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
         String url = "https://api.nytimes.com/svc/search/v2/articlesearch.json";
 
         RequestParams params = new RequestParams();
-        params.put("api-keys", "2c2e2552fd5547fc86517296624db40a");
+        params.put("api-key", "2c2e2552fd5547fc86517296624db40a");
         params.put("page", 0);
         params.put("q", querry);
 
